@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name" translatable="false">DesignPatterns</string>
+
+    <string name="problem">Problem</string>
+    <string name="solution">Solution</string>
+
+    <string name="category_creational_title">Creational</string>
+    <string name="category_structural_title">Structural</string>
+    <string name="category_behavioral_title">Behavioral</string>
+
+    <string name="category_creational_description">Responsible for efficient object creation mechanisms, which increase the flexibility and reuse of existing code.</string>
+    <string name="category_structural_description">Responsible for building simple and efficient class hierarchies and relations between different classes.</string>
+    <string name="category_behavioral_description">Responsible for the efficient and safe distribution of behaviors among the program\'s objects.</string>
+
+    <!--CREATIONAL-->
+
+    <string name="creational_abstract_factory_title">Abstract Factory</string>
+    <string name="creational_abstract_factory_description">Allows producing families of related or dependent objects without specifying their concrete classes.</string>
+    <string name="creational_builder_title">Builder</string>
+    <string name="creational_builder_description">Allows producing different types and representations of an object using the same building process. Provides a way to construct complex objects step by step.</string>
+    <string name="creational_factory_method_title">Factory Method</string>
+    <string name="creational_factory_method_description">Provides an interface for creating an object, but allows subclasses to alter the type of an object that will be created.</string>
+    <string name="creational_prototype_title">Prototype</string>
+    <string name="creational_prototype_description">Allows producing new objects by copying existing ones.</string>
+
+    <string name="creational_singleton_title">Singleton</string>
+    <string name="creational_singleton_description">Ensures that a class has only one instance and provides a global access point to this instance.</string>
+
+    <!--STRUCTURAL-->
+
+    <string name="structural_composite_title">Composite</string>
+    <string name="structural_composite_description">Composes objects into tree structures and lets clients work with these structures as if they were individual objects.</string>
+    <string name="structural_decorator_title">Decorator</string>
+    <string name="structural_decorator_description">Allows attaching new behaviors to an object by placing it inside wrapper objects that contain these behaviors.</string>
+    <string name="structural_adapter_title">Adapter</string>
+    <string name="structural_adapter_description">Allows using together objects with incompatible interfaces.</string>
+    <string name="structural_proxy_title">Proxy</string>
+    <string name="structural_proxy_description">Provides a substitute or placeholder for another object to controls access to it.</string>
+    <string name="structural_facade_title">Facade</string>
+    <string name="structural_facade_description">Provides a simplified interface to a complex system of classes, library or framework.</string>
+    <string name="structural_bridge_title">Bridge</string>
+    <string name="structural_bridge_description">Splits a giant class or a set of closely related classes into two separate hierarchies, abstraction and implementation, that can be developed independently of each other.</string>
+    <string name="structural_flyweight_title">Flyweight</string>
+    <string name="structural_flyweight_description">Allows fitting more objects into available RAM by sharing common parts of state among multiple objects, instead of keeping it in each object.</string>
+
+    <!--BEHAVIORAL-->
+
+    <string name="behavioral_strategy_title">Strategy</string>
+    <string name="behavioral_strategy_description">Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.</string>
+    <string name="behavioral_state_title">State</string>
+    <string name="behavioral_state_description">Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.</string>
+    <string name="behavioral_command_title">Command</string>
+    <string name="behavioral_command_description">Encapsulate a request as an object, thereby letting you parametrize clients with different requests, queue or log requests, and support undoable operations.</string>
+    <string name="behavioral_iterator_title">Iterator</string>
+    <string name="behavioral_iterator_description">Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.</string>
+    <string name="behavioral_mediator_title">Mediator</string>
+    <string name="behavioral_mediator_description">Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.</string>
+    <string name="behavioral_observer_title">Observer</string>
+    <string name="behavioral_observer_description">Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.</string>
+    <string name="behavioral_visitor_title">Visitor</string>
+    <string name="behavioral_visitor_description">Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.</string>
+    <string name="behavioral_memento_title">Memento</string>
+    <string name="behavioral_memento_description">Without violating encapsulation, capture and externalize an object\'s internal state so that the object can be returned to this state later.</string>
+    <string name="behavioral_chain_of_responsibility_title">Chain of Responsibility</string>
+    <string name="behavioral_chain_of_responsibility_description">Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.</string>
+    <string name="behavioral_template_method_title">Template Method</string>
+    <string name="behavioral_template_method_description">Define the skeleton of an algorithm in an operation, deferring some steps to client subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm\'s structure.</string>
+
+</resources>

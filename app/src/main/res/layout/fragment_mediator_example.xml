@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <com.designpatterns.ui.example.behavioral.mediator.TitleEditText
+        android:id="@+id/titleEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <com.designpatterns.ui.example.behavioral.mediator.NoteEditText
+        android:id="@+id/noteEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleEdt"
+        android:hint="Note" />
+
+    <com.designpatterns.ui.example.behavioral.mediator.SaveButton
+        android:id="@+id/saveButton"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/noteEdt"
+        android:layout_marginBottom="8dp"
+        android:enabled="false"
+        android:text="Save" />
+
+    <com.designpatterns.ui.example.behavioral.mediator.ClearButton
+        android:id="@+id/clearButton"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noteEdt"
+        android:layout_toStartOf="@id/saveButton"
+        android:enabled="false"
+        android:text="Clear" />
+
+</RelativeLayout>
